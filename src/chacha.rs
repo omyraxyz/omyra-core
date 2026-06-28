@@ -261,6 +261,7 @@ pub fn ct_eq(a: &[u8], b: &[u8]) -> bool {
 /// ChaCha20-Poly1305 (IETF, 96-bit nonce). Output of [`Aead::seal`] is
 /// `ciphertext || 16-byte tag`; [`Aead::open`] verifies the tag in constant time
 /// before returning plaintext.
+#[derive(Clone, Copy)]
 pub struct ChaCha20Poly1305;
 
 impl ChaCha20Poly1305 {

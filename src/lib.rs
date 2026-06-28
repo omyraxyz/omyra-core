@@ -17,8 +17,10 @@ use std::fmt;
 
 mod chacha;
 mod ed25519;
+pub mod keypair;
 mod sha256;
 mod sha512;
+pub mod transcript;
 
 pub use chacha::{
     chacha20_block, chacha20_xor, ct_eq, poly1305, ChaCha20Poly1305,
