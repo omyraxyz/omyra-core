@@ -1,0 +1,10 @@
+[package]
+name = "omyra-core"
+description = "Clean-room cryptography (SHA-256/512, ChaCha20-Poly1305, HKDF, Ed25519) and shared types for the Omyra utility stack."
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.91"
+repository = "https://github.com/omyraxyz/omyra-core"
+keywords = ["crypto", "ed25519", "chacha20poly1305", "omyra"]
+categories = ["cryptography", "no-std"]
