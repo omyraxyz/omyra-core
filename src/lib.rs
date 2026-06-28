@@ -17,9 +17,11 @@ use std::fmt;
 
 mod chacha;
 mod ed25519;
+pub mod encoding;
 pub mod keypair;
 mod sha256;
 mod sha512;
+pub mod slot;
 pub mod transcript;
 
 pub use chacha::{
